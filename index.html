@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkatesh Nersu - HTML Skills Demo</title>
+    <meta name="description" content="A demonstration of semantic HTML structure and best practices by Venkatesh Nersu.">
+    
+    <link rel="stylesheet" href="styles.css"> 
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Venkatesh Nersu</h1>
+        <p>Web Developer</p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills Summary</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <p>
+                As a passionate web developer, I focus on building robust and user-friendly applications. My expertise lies in the MERN stack, where I leverage JavaScript for both frontend and backend development. This HTML demo showcases my foundational understanding of structuring web content semantically and adhering to accessibility best practices.
+            </p>
+            <p>
+                I am committed to writing clean, maintainable code and continuously learning new technologies to deliver impactful digital solutions.
+            </p>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills Summary</h2>
+            <h3>Core Web Technologies</h3>
+            <ul>
+                <li>HTML5 (Semantic Structuring)</li>
+                <li>CSS3 (Styling & Responsiveness)</li>
+                <li>JavaScript (ES6+)</li>
+            </ul>
+
+            <h3>MERN Stack</h3>
+            <ul>
+                <li>React.js (Frontend Library)</li>
+                <li>Node.js & Express.js (Backend Runtime & Framework)</li>
+                <li>MongoDB & Mongoose (Database & ODM)</li>
+            </ul>
+
+            <h3>Other Technologies</h3>
+            <ul>
+                <li>Git & GitHub (Version Control)</li>
+                <li>RESTful APIs</li>
+                <li>Basic UI/UX Principles</li>
+            </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>Feel free to connect with me:</p>
+            <ul>
+                <li>Email: <a href="mailto:nersuvenkatesh12@gmail.com">nersuvenkatesh12@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/venkateshn67">My GitHub Profile</a></li>
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Venkatesh Nersu. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
